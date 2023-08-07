@@ -37,10 +37,9 @@ class PauseMenu {
             } 
           },
           {
-            label: "Save and Quit To Title",
-            description: "Quit to title",
+            label: "Quit To Title",
+            description: "Quit to title - don't forget to save before!",
             handler: () => {
-              this.progress.save();
               location.reload()
             } 
           },
