@@ -9,7 +9,7 @@ class Hud {
         this.element.remove();
       }
       this.element = document.createElement("div");
-      this.element.classList.add("Hud");
+      // this.element.classList.add("Hud");
      
       this.update();
     }
