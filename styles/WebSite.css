@@ -1,0 +1,80 @@
+.WebSite {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 101%;
+
+    width: 100%;
+    padding: 6px;
+    background: var(--menu-background);
+    margin: 0 auto;
+    color: var(--menu-font-color);
+    font-size: 5px;
+    z-index: 2;
+}
+
+.WebSite p {
+    margin: 0;
+}
+
+.display {
+    position: absolute;
+    width: 50%;
+    height: 95%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 2.5%;
+    overflow-y: scroll;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #dddca3;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: black;
+    background-size: 2px 2px;
+    background-position: 0 0, 1px 1px;
+  }
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset -1px -1px 0 0 #464147, inset 1px 1px 0 0 #cac6cb, inset -2px -2px 0 0 #a099a1, inset 2px 2px 0 0 white;
+    width: 16px;
+    height: 16px;
+    background-color: #cac6cb;
+    z-index: 1;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: #cac6cb;
+  }
+.display button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 4px;
+    padding: 2px;
+    margin: 0;
+    cursor: none;
+    text-decoration: underline;
+}
+button:hover{
+    color: gray;
+}
+.close {
+    background-color: black;
+    border: none;
+    position: absolute;
+    color: white;
+    font-family: inherit;
+    font-size: 4px;
+    margin: 0;
+    left: 75%;
+    cursor: none;
+}

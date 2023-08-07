@@ -1,0 +1,37 @@
+.TitleScreen {
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+    background: #000;
+  }
+  
+  .TitleScreen_logo {
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    image-rendering: pixelated;
+  }
+  
+  .TitleScreen .KeyboardMenu {
+    position: absolute;
+    width: 200px;
+    top: 100px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+  }
+  .TitleScreen button {
+    color: #fff;
+    justify-content: center;
+    width: 100%;
+    padding:0;
+  }
+  
+  .TitleScreen .DescriptionBox {
+    background: transparent;
+    color: #fff;
+    border: 0;
+    text-align: center;
+  }
+  
